@@ -1,0 +1,345 @@
+body {
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #fff;
+    background: #39bcd4 none;
+    height: 45rem;
+    width: 30rem;
+    margin: auto;
+}
+
+.ttl {
+  float: left;
+  margin-left: 10px;
+}
+
+.tap {
+  color: rgb(72, 84, 255);
+  padding-top: 10px;
+  width: 50%;
+  margin: auto;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  border: rgb(72, 84, 255) 4px solid ;
+  border-radius: 10px;
+}
+ 
+.mobile {
+    margin-top: 10px;
+    background-color: #b0e0e6;
+    height: 45rem;
+    width: 30rem;
+    position: fixed;
+}
+
+#mainHeader {
+    display: block;
+    height: 5rem;
+    width: 30rem;
+    background-color: rgb(72, 84, 255);
+    position: fixed
+}
+
+main {
+    color: #ffffff;
+}
+
+.mainNavigator {
+    display: block;
+    height: 4rem;
+    width: 30rem;
+    background-color: rgb(72, 84, 255);
+    bottom: 1;
+    position: fixed;
+}
+
+.current {
+    border-top: red 4px solid;
+    font-weight: bold;
+    color: red
+  }
+  
+  .main-menu {
+    margin:auto;
+  }
+  
+  .main-menu ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .main-menu li {
+    float: left;
+    margin-right: 15px;
+    line-height: 70px;
+  }
+  
+  .main-menu a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    width: 6rem;
+    margin-left: 35px;
+    margin-right: 0px;
+    border-right: #fff 4px solid;
+    border-left: #fff 4px solid;
+  }
+
+  .main-menu i {
+    font-size: 50px;
+    margin-top: 8px;
+    height: 100%;
+  }
+  
+  .main-menu a:hover {
+    color: #4400ff;
+  }
+  
+  .main-menu > ul > li:last-child {
+    margin-right: 0px;
+  }
+
+  .p-icon {
+      margin-top: 15px;
+      margin-right: 15px;
+      float: right;
+      font-size: 50px;
+  }
+
+  .p-icon a:hover {
+    color: #4400ff
+  }
+
+  .qr {
+      margin: auto;
+      margin-top: 120px;
+  }
+
+  .map {
+      margin: auto;
+      margin-top: 10px;
+  }
+
+  .tabs {
+      color: #fff;
+  }
+  
+
+  .tab {
+      margin-top: 10px;
+    background-color: rgb(72, 84, 255);
+    width: 28rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2px;
+    border-radius: 14px;
+  }
+
+  .first-tab {
+      margin-top: 100px;
+      background-color: rgb(72, 84, 255);
+      width: 28rem;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 2px;
+      border-radius: 14px;
+  }
+
+  .tab-text {
+      text-align: left;
+      margin-left: 10px;
+  }
+
+  .arrow {
+      font-size: 15px;
+      text-align: right;
+      top: 0;
+      margin: 0px 10px 10px 0px
+  }
+
+  a {
+    text-decoration: none;
+    color: #fff
+  }
+
+  .arrow a:hover {
+    color: red;
+  }
+
+  /* Support Page */
+  #row {
+
+    background-color: lightgray;
+    
+    margin-top: 100px;
+    
+    }
+    
+    #rowrow {
+    
+    margin-top: 100px;
+    
+    list-style-type: none;
+    
+    padding: 0;
+    
+    margin: 0;
+    
+    }
+    
+    .headerGrid h3 {
+    
+    border: 1px solid #ddd;
+    
+    margin-top: 0px;
+    
+    background-color: #ddd;
+    
+    padding: 12px;
+    
+    text-decoration: none;
+    
+    font-size: 18px;
+    
+    color: black;
+    
+    display: block;
+    
+    }
+    
+    .supportGrid{
+    
+    border: 1px solid #ddd;
+    
+    margin-top: -1px;
+    
+    background-color: grey;
+    
+    padding: 12px;
+    
+    text-decoration: none;
+    
+    font-size: 18px;
+    
+    color: black;
+    
+    display: block;
+    
+    }
+
+
+
+    .supportGrid a:hover {
+      color:darkgray;
+      font-weight: bold;
+    }
+
+   /*
+   PDF Guide
+   */
+
+   .pdfList {
+     margin-top: 100px;
+   }
+   
+   #myInput {
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+  }
+  
+  #myUL {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #myUL li a {
+    border: 1px solid #ddd;
+    margin-top: -1px;
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block;
+  }
+  
+  #myUL li a:hover:not(.header) {
+    background-color: #eee;
+  }
+
+    
+    .border {
+    
+    margin-bottom: 500px;
+    
+    height: 20rem;
+    
+    width: 30 rem;
+    
+    }
+    
+    .topRecordP{
+    
+    font-weight: bold;
+    
+    color:#000;
+    
+    text-align: center;
+    
+    vertical-align: middle;
+    
+    margin-top: 280px;
+    
+    }
+    
+    .midRecordP{
+    
+    color:#000;
+    
+    text-align: center;
+    
+    vertical-align: middle;
+    
+    }
+
+    /* Profile */
+
+    .profileText{
+
+      color: rgb(72, 84, 255);
+      
+      text-align: center;
+      
+      vertical-align: middle;
+      
+      margin-top: 90px;
+      
+      font-size: 14px
+      
+      }
+
+      /* streets */
+
+      .transactionLayout{
+
+        color:rgb(72, 84, 255);
+        
+        text-align: center;
+        
+        vertical-align: middle;
+        
+        margin-top: 100px;
+        
+        font-size: 14px
+        
+        }
+
+        .splash {
+          margin-top: 200px
+        }
+      

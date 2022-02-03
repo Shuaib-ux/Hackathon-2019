@@ -1,0 +1,79 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Home Page</title>
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+  </head>
+  <body>
+      <div class="mobile">
+      <header id="mainHeader">
+        <h1>PDF Guide</h1>
+      </header>
+
+      <main class="pdfList">
+            <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+
+            <ul id="myUL">
+              <li><a href="https://www.jenonline.org/article/S0099-1767(18)30448-3/pdf">Anxiety and stress in live disaster</a></li>
+              <div class="scroll">
+              <li><a href="#">Agnes</a></li>
+              
+              <li><a href="https://www.mentalhealth.org.uk/sites/default/files/all_about_depression.pdf">Depression</a></li>
+              <li><a href="http://neuron.mefst.hr/docs/katedre/klinicke_vjestine/Dr.%20Lojpur%20-%20Dressing%20and%20bandage.pdf">Dressing and bandage</a></li>
+              <li><a href="https://nidm.gov.in/PDF/manuals/Drought_Manual.pdf">Drought</a></li>
+
+              <li><a href="https://www.london-fire.gov.uk/media/1175/fire-evacuation-plan-template.pdf">Fire Evacuation Plan Template </a></li>
+
+              <li><a href="https://www2.merton.gov.uk/personal_emergency_evacuation_plans__peeps_.pdf">Personal Emergency Evacuation Plans (PEEPs) </a></li>
+
+              <li><a href="https://www.fema.gov/media-library-data/1522342356541-54bd8d92d0d0d07bca4c1250ebde2b21/Tornadoes_508.pdf">Tornado</a></li>
+            </div>
+            </ul>
+
+
+            <script>
+              function myFunction() {
+                // Declare variables
+                var input, filter, ul, li, a, i, txtValue;
+                input = document.getElementById('myInput');
+                filter = input.value.toUpperCase();
+                ul = document.getElementById("myUL");
+                li = ul.getElementsByTagName('li');
+              
+                // Loop through all list items, and hide those who don't match the search query
+                for (i = 0; i < li.length; i++) {
+                  a = li[i].getElementsByTagName("a")[0];
+                  txtValue = a.textContent || a.innerText;
+                  if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    li[i].style.display = "";
+                  } else {
+                    li[i].style.display = "none";
+                  }
+                }
+              }
+              </script>
+      </main>
+
+      <footer class="mainNavigator">
+          <nav class="main-menu">
+              <ul>
+                  <li>
+                  <a href="index.html"><i class="far fa-id-card"></i></a>
+                  </li>
+                  <li>
+                  <a href="history.html"><i class="fas fa-history"></i></a>
+                  </li>
+                  <li>
+                  <a class="current" href="support.html"><i class="fas fa-question"></i></a>
+                  </li>
+                  </ul>
+                  </nav>
+
+
+      </footer>
+      </div>
+  </body>
+  </html>
